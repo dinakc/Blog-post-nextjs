@@ -26,16 +26,24 @@ function Popularhomeblogs() {
 
   return (
     <div>
-      <h1 className=" text-2xl text-center underline underline-offset-8">
+      {" "}
+      <h1 className="text-2xl text-center underline underline-offset-8">
         {" "}
-        Our Popular Blogs
-      </h1>
-      <div className=" border-double border-4 border-indigo-600 w-80 h-80">
-        Blog1
-      </div>
-      <div className=" border-double border-4 border-indigo-600 w-80 h-80">
-        Blog1
-      </div>
+        Our Popular Blogs{" "}
+      </h1>{" "}
+      <div className="grid grid-cols-3 gap-4">
+        {" "}
+        {blogData.map((blog, index) => (
+          <div
+            key={index}
+            className="border-double border-2 border-indigo-600 w-80 h-80"
+          >
+            {" "}
+            <h2>{blog.title}</h2> <p>{blog.description}</p> <p>{blog.author}</p>{" "}
+            <p>{blog.date}</p>{" "}
+          </div>
+        ))}{" "}
+      </div>{" "}
     </div>
   );
 }
