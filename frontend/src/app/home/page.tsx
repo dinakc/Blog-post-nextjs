@@ -1,8 +1,9 @@
 import React from "react";
+import Popularhomeblogs from "../components/popularhomeblogs";
 
 function Homeblogs() {
   return (
-    <div className=" h-96 bg-yellow-300 flex flex-col align-center justify-around p-5">
+    <div className=" h-full bg-yellow-300 flex flex-col align-center justify-around p-5">
       <h1 className="text-7xl "> Happy Blogging</h1>
       <h3 className=" text-2xl">
         A safe create space for our beloved bloggers for creating unique blogs
@@ -15,6 +16,7 @@ function Homeblogs() {
         {" "}
         Create your own Blogs!
       </button>
+      <Popularhomeblogs />
     </div>
   );
 }
