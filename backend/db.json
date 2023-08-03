@@ -23,42 +23,42 @@
   ],
   "popular_blogs": [
     {
-      "title": "first blog",
+      "title": "Current Weather",
+      "description": "lorem20 ",
+      "image": "dlkfkd",
+      "author_name": "dina",
+      "date": "06/24"
+    },
+    {
+      "title": "Cats Adoption",
       "description": "this is first blog",
       "image": "dlkfkd",
       "author_name": "dina",
       "date": "06/24"
     },
     {
-      "title": "first blog",
+      "title": "Life as a frontend developer",
       "description": "this is first blog",
       "image": "dlkfkd",
       "author_name": "dina",
       "date": "06/24"
     },
     {
-      "title": "first blog",
+      "title": "Adventerous Hiking",
       "description": "this is first blog",
       "image": "dlkfkd",
       "author_name": "dina",
       "date": "06/24"
     },
     {
-      "title": "first blog",
+      "title": "Facts about Nepal",
       "description": "this is first blog",
       "image": "dlkfkd",
       "author_name": "dina",
       "date": "06/24"
     },
     {
-      "title": "first blog",
-      "description": "this is first blog",
-      "image": "dlkfkd",
-      "author_name": "dina",
-      "date": "06/24"
-    },
-    {
-      "title": "first blog",
+      "title": "Explore American culture",
       "description": "this is first blog",
       "image": "dlkfkd",
       "author_name": "dina",
