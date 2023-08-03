@@ -9,6 +9,16 @@
       "email": "ashma@gmail.com",
       "password": "$2a$10$lspOs2STZEZh4DZ8aY6sA.8UeGMkvc9Z6sgNgTqWSRJwExl2ejkSa",
       "id": 2
+    },
+    {
+      "email": "dina@gmail.com",
+      "password": "$2a$10$UjklE9/PfGQjfECJ9CMZl.YlZwa7RRRgdxVveJ23mFAnDhRcoiUdW",
+      "id": 3
+    },
+    {
+      "email": "ashma@yahoo.com",
+      "password": "$2a$10$kPQiw5gDFTY8NQp2erkTbeh9qvoIlUmHu0ZS1NbHCZ6iOu7G2mij6",
+      "id": 4
     }
   ],
   "blogs": [

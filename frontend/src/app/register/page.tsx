@@ -91,6 +91,7 @@ function Register() {
           Register
         </button>
       </form>
+      <div>bla bla</div>
     </div>
   );
 }
