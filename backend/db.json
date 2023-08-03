@@ -1,0 +1,68 @@
+{
+  "users": [
+    {
+      "email": "deena@gmail.com",
+      "password": "$2a$10$bYOiDonajY9B59BqTfchqef5kS5D8PaONPnJosmBhvTXk3vBm/2l6",
+      "id": 1
+    },
+    {
+      "email": "ashma@gmail.com",
+      "password": "$2a$10$lspOs2STZEZh4DZ8aY6sA.8UeGMkvc9Z6sgNgTqWSRJwExl2ejkSa",
+      "id": 2
+    }
+  ],
+  "blogs": [
+    {
+      "title": "first blog",
+      "description": "this is first blog"
+    },
+    {
+      "title": "first blog",
+      "description": "this is first blog"
+    }
+  ],
+  "popular_blogs": [
+    {
+      "title": "first blog",
+      "description": "this is first blog",
+      "image": "dlkfkd",
+      "author_name": "dina",
+      "date": "06/24"
+    },
+    {
+      "title": "first blog",
+      "description": "this is first blog",
+      "image": "dlkfkd",
+      "author_name": "dina",
+      "date": "06/24"
+    },
+    {
+      "title": "first blog",
+      "description": "this is first blog",
+      "image": "dlkfkd",
+      "author_name": "dina",
+      "date": "06/24"
+    },
+    {
+      "title": "first blog",
+      "description": "this is first blog",
+      "image": "dlkfkd",
+      "author_name": "dina",
+      "date": "06/24"
+    },
+    {
+      "title": "first blog",
+      "description": "this is first blog",
+      "image": "dlkfkd",
+      "author_name": "dina",
+      "date": "06/24"
+    },
+    {
+      "title": "first blog",
+      "description": "this is first blog",
+      "image": "dlkfkd",
+      "author_name": "dina",
+      "date": "06/24"
+    }
+  ]
+}
