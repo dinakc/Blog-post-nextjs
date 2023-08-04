@@ -42,7 +42,9 @@ function Register() {
         console.log(response);
         localStorage.setItem("token", response.data.accessToken);
         console.log(response.data.accessToken);
+
         router.push("/login");
+
       })
       .catch((e) => {
         toast.error(e.response.data);
