@@ -19,6 +19,26 @@
       "email": "ashma@yahoo.com",
       "password": "$2a$10$kPQiw5gDFTY8NQp2erkTbeh9qvoIlUmHu0ZS1NbHCZ6iOu7G2mij6",
       "id": 4
+    },
+    {
+      "email": "ash@gmail.com",
+      "password": "$2a$10$QIXnfrjSAwpOvyvMMPzQguo0v8537/js4XClaUNLbAR/NSWHwWABe",
+      "id": 5
+    },
+    {
+      "email": "archu@gmail.com",
+      "password": "$2a$10$ai7XAdQ7ot12Z.dWKZ8e9OaMlvjjpTE3lYrTS1UF1D9t66iV2LMiW",
+      "id": 6
+    },
+    {
+      "email": "ashma.u@gmail.com",
+      "password": "$2a$10$P7CDjGcPnuF8cQ5fYSs1D./gwRvEfYdeQ9qgL3GDOgCWddcSV0fxO",
+      "id": 7
+    },
+    {
+      "email": "ashma.udf@gmail.com",
+      "password": "$2a$10$.8KJsSSnMQTcJBlgQ.ju2.iSgjf4NfeElmhqIshIugHONHyJA2Meq",
+      "id": 8
     }
   ],
   "blogs": [

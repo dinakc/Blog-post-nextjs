@@ -1,7 +1,8 @@
 "use client";
 import axios from "axios";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import toast from "react-hot-toast";
+import { useRouter } from "next/navigation";
 
 interface IUserData {
   email: string;
@@ -10,24 +11,15 @@ interface IUserData {
 }
 
 function Login() {
+  const router = useRouter();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [isLoggingIn, setIsLoggingIn] = useState(false);
   const [blogData, setBlogData] = useState<IUserData[]>([]);
 
-  // blogData.map((eachuser) => {
-  //   if (email === eachuser.email && password === eachuser.password) {
-  //     console.log("user logged in");
-  //   }
-  //   if (password !== eachuser.password) {
-  //     console.log("email not correct");
-  //   }
-  //   if (email !== eachuser.email) {
-  //     console.log("password is corrrect ");
-  //   }
-  // });
-
   function loginUser(e) {
+    e.preventDefault();
+
     if (!email) {
       toast.error("Please Enter Email");
       return;
@@ -36,9 +28,9 @@ function Login() {
       toast.error("Please Enter Password");
       return;
     }
-    e.preventDefault();
+
     axios
-      .post("http://localhost:4000/users", { email, password })
+      .post("http://localhost:4000/login", { email, password })
       .then((response) => {
         // setBlogData(response.data);
         toast.success("Logged in successfully");
@@ -50,7 +42,7 @@ function Login() {
         localStorage.setItem("session-token", response.data.accessToken);
 
         // Redirect to addblog after successful login
-        // navigate("/cart");
+        router.push("/postpage");
       })
       .catch((error) => {
         // Display an error toast if the login attempt fails

@@ -2,6 +2,7 @@
 import axios from "axios";
 import React, { useState } from "react";
 import toast from "react-hot-toast";
+import { useRouter } from "next/navigation";
 
 function Register() {
   const [email, setEmail] = useState("");
@@ -10,6 +11,8 @@ function Register() {
   const [emailError, setEmailError] = useState("");
   const [passwordError, setPasswordError] = useState("");
   const [registrationError, setRegistrationError] = useState("");
+
+  const router = useRouter();
   const validateEmail = () => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(email)) {
@@ -39,6 +42,7 @@ function Register() {
         console.log(response);
         localStorage.setItem("token", response.data.accessToken);
         console.log(response.data.accessToken);
+        router.push("/login");
       })
       .catch((e) => {
         toast.error(e.response.data);
@@ -91,7 +95,6 @@ function Register() {
           Register
         </button>
       </form>
-      <div>bla bla</div>
     </div>
   );
 }
