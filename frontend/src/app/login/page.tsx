@@ -54,38 +54,47 @@ function Login() {
   }
 
   return (
-    <form onSubmit={loginUser}>
-      <div className="mb-4">
-        <label className="block text-sm font-medium text-gray-700">Email</label>
-        <input
-          className="mt-1 p-1 rounded bg-gray-100 w-full"
-          type="text"
-          placeholder="Enter your email"
-          onChange={(e) => setEmail(e.target.value)}
-          // onBlur={validateEmail}
-        />
-        {/* {emailError && <p>{emailError}</p>} */}
-      </div>
-      <div className="mb-4">
-        <label className="block text-sm font-medium text-gray-700">
-          Password
-        </label>
-        <input
-          className="mt-1 p-1 rounded bg-gray-100 w-full"
-          type="password"
-          placeholder="Enter your password"
-          onChange={(e) => setPassword(e.target.value)}
-          // onBlur={validatePassword}
-        />
-        {/* {passwordError && <p>{passwordError}</p>} */}
-      </div>
+    <div
+      className="w-full min-h-screen flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8 relative"
+      style={{
+        background:
+          "url('https://images.unsplash.com/photo-1514064019862-23e2a332a6a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=714&q=80')",
+        backgroundSize: "full",
+        backgroundPosition: "center",
+      }}>
+      <div className="bg-white bg-opacity-50 backdrop-blur-lg rounded-lg px-8 py-6 shadow-md max-w-md w-full">
+        <div className="mb-4">
+          <label className="block text-sm font-medium text-gray-700">
+            Email
+          </label>
+          <input
+            className="mt-1 p-2 border-b-2 border-yellow-800 bg-transparent w-full "
+            type="text"
+            placeholder="Enter your email"
+            onChange={(e) => setEmail(e.target.value)}
+          />
+          {/* {emailError && <p>{emailError}</p>} */}
+        </div>
+        <div className="mb-4">
+          <label className="block text-sm font-medium text-gray-700">
+            Password
+          </label>
+          <input
+            className="mt-1 p-2 border-b-2 border-yellow-800 bg-transparent w-full focus:outline-none focus:ring focus:border-blue-300"
+            type="password"
+            placeholder="Enter your password"
+            onChange={(e) => setPassword(e.target.value)}
+          />
+          {/* {passwordError && <p>{passwordError}</p>} */}
+        </div>
 
-      <button
-        className="w-full mt-2 px-4 py-2 bg-green-700 text-white rounded hover:bg-green-800"
-        type="submit">
-        Login
-      </button>
-    </form>
+        <button
+          className="w-full mt-2 px-4 py-2 bg-yellow-700 text-white rounded hover:bg-yellow-800 focus:outline-none focus:ring focus:border-blue-300"
+          type="submit">
+          Login
+        </button>
+      </div>
+    </div>
   );
 }
 
