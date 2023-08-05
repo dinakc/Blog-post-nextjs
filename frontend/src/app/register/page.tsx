@@ -51,52 +51,6 @@ function Register() {
   }
 
   return (
-    // <div>
-    //   <form onSubmit={registerUser}>
-    //     <div className="mb-4">
-    //       <label className="block text-sm font-medium text-gray-700">
-    //         Email
-    //       </label>
-    //       <input
-    //         className="mt-1 p-1 rounded bg-gray-100 w-full"
-    //         type="text"
-    //         placeholder="Enter your email"
-    //         onChange={(e) => setEmail(e.target.value)}
-    //         onBlur={validateEmail}
-    //       />
-    //       {emailError && <p>{emailError}</p>}
-    //     </div>
-    //     <div className="mb-4">
-    //       <label className="block text-sm font-medium text-gray-700">
-    //         Password
-    //       </label>
-    //       <input
-    //         className="mt-1 p-1 rounded bg-gray-100 w-full"
-    //         type="password"
-    //         placeholder="Enter your password"
-    //         onChange={(e) => setPassword(e.target.value)}
-    //         onBlur={validatePassword}
-    //       />
-    //       {passwordError && <p>{passwordError}</p>}
-    //     </div>
-    //     <div className="mb-4">
-    //       <label className="block text-sm font-medium text-gray-700">
-    //         Password
-    //       </label>
-    //       <input
-    //         className="mt-1 p-1 rounded bg-gray-100 w-full"
-    //         type="password"
-    //         placeholder="Enter your password"
-    //         onChange={(e) => setConfirmPassword(e.target.value)}
-    //       />
-    //     </div>
-    //     <button
-    //       className="w-full mt-2 px-4 py-2 bg-green-700 text-white rounded hover:bg-green-800"
-    //       type="submit">
-    //       Register
-    //     </button>
-    //   </form>
-    // </div>
     <div
       className="w-full min-h-screen flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8 relative"
       style={{
