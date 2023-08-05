@@ -1,4 +1,3 @@
-
 "use client";
 import axios from "axios";
 import React, { useEffect, useState } from "react";
@@ -59,8 +58,8 @@ function Login() {
       className="w-full min-h-screen flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8 relative"
       style={{
         background:
-          "url('https://images.unsplash.com/photo-1514064019862-23e2a332a6a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=714&q=80')",
-        backgroundSize: "full",
+          "url('https://images.unsplash.com/photo-1512389098783-66b81f86e199?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=914&q=80')",
+        backgroundSize: "100% 100%",
         backgroundPosition: "center",
       }}>
       <div className="bg-white bg-opacity-50 backdrop-blur-lg rounded-lg px-8 py-6 shadow-md max-w-md w-full">
@@ -91,13 +90,12 @@ function Login() {
 
         <button
           className="w-full mt-2 px-4 py-2 bg-yellow-700 text-white rounded hover:bg-yellow-800 focus:outline-none focus:ring focus:border-blue-300"
-          type="submit">
+          onClick={loginUser}>
           Login
         </button>
       </div>
     </div>
   );
-
 }
 
 export default Login;
