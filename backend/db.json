@@ -23,46 +23,52 @@
   ],
   "popular_blogs": [
     {
+      "id": 1,
       "title": "Current Weather",
-      "description": "lorem20 ",
-      "image": "dlkfkd",
-      "author_name": "dina",
-      "date": "06/24"
+      "description": "cdcdcdc",
+      "img_url": "https://www.southernliving.com/thmb/_OmAFMN-xTMKgmOGmCVGR6jLUng=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-519976808-2000-ceaf17f5941848e18bebc2009058fa5b.jpg",
+      "author_name": "Deena",
+      "date": "01/24"
     },
     {
+      "id": 2,
       "title": "Cats Adoption",
-      "description": "this is first blog",
-      "image": "dlkfkd",
-      "author_name": "dina",
-      "date": "06/24"
+      "description": "bjhihihihi",
+      "img_url": "https://t3.ftcdn.net/jpg/05/74/30/02/360_F_574300214_1bXQvA1h9vhyt7Fe8iGlA490lqFW4oGW.jpg",
+      "author_name": "Ashma",
+      "date": "12/18"
     },
     {
+      "id": 3,
       "title": "Life as a frontend developer",
       "description": "this is first blog",
-      "image": "dlkfkd",
-      "author_name": "dina",
-      "date": "06/24"
+      "img_url": "https://www.techrepublic.com/wp-content/uploads/2021/06/frustrated-programmer-coding-developers.jpg",
+      "author_name": "Yogesh",
+      "date": "06/28"
     },
     {
+      "id": 4,
       "title": "Adventerous Hiking",
       "description": "this is first blog",
-      "image": "dlkfkd",
-      "author_name": "dina",
-      "date": "06/24"
+      "img_url": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/10/15/09/istock-483629308.jpg",
+      "author_name": "Gorakh",
+      "date": "04/04"
     },
     {
+      "id": 5,
       "title": "Facts about Nepal",
       "description": "this is first blog",
-      "image": "dlkfkd",
-      "author_name": "dina",
-      "date": "06/24"
+      "img_url": "https://c1.wallpaperflare.com/preview/414/311/639/nepal-swayambhunath-buddhist-kathmandu.jpg",
+      "author_name": "Nolma",
+      "date": "067/20"
     },
     {
+      "id": 6,
       "title": "Explore American culture",
       "description": "this is first blog",
-      "image": "dlkfkd",
-      "author_name": "dina",
-      "date": "06/24"
+      "img_url": "https://img.andrewprokos.com/WEEHAWKEN-SKYLINE-DETAIL-3870-1000-PX.jpg",
+      "author_name": "Subi",
+      "date": "03/22"
     }
   ]
 }
