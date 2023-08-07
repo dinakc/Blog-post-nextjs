@@ -11,87 +11,88 @@
       "id": 2
     },
     {
-      "email": "dina@gmail.com",
-      "password": "$2a$10$UjklE9/PfGQjfECJ9CMZl.YlZwa7RRRgdxVveJ23mFAnDhRcoiUdW",
+      "email": "sos@gmail.com",
+      "password": "$2a$10$KQRu/UjSl11OhZLhq5ptNea2GWd2u3dC2R.iGMbtI24QKRn7F.Lmm",
       "id": 3
     },
     {
-      "email": "ashma@yahoo.com",
-      "password": "$2a$10$kPQiw5gDFTY8NQp2erkTbeh9qvoIlUmHu0ZS1NbHCZ6iOu7G2mij6",
+      "email": "anu@gmail.com",
+      "password": "$2a$10$egTbYOUheNi8JRPM7nrqh.l7cj.djXV5BwZccNLmjF5CNmwjyZ3l2",
       "id": 4
     },
     {
-      "email": "ash@gmail.com",
-      "password": "$2a$10$QIXnfrjSAwpOvyvMMPzQguo0v8537/js4XClaUNLbAR/NSWHwWABe",
+      "email": "jane@gmail.com",
+      "password": "$2a$10$u53Sh6UXoFrmFuStePTbquizhV/udWAF9dwVITy39oLPej6xlQfWG",
       "id": 5
-    },
-    {
-      "email": "archu@gmail.com",
-      "password": "$2a$10$ai7XAdQ7ot12Z.dWKZ8e9OaMlvjjpTE3lYrTS1UF1D9t66iV2LMiW",
-      "id": 6
-    },
-    {
-      "email": "ashma.u@gmail.com",
-      "password": "$2a$10$P7CDjGcPnuF8cQ5fYSs1D./gwRvEfYdeQ9qgL3GDOgCWddcSV0fxO",
-      "id": 7
-    },
-    {
-      "email": "ashma.udf@gmail.com",
-      "password": "$2a$10$.8KJsSSnMQTcJBlgQ.ju2.iSgjf4NfeElmhqIshIugHONHyJA2Meq",
-      "id": 8
     }
   ],
   "blogs": [
     {
-      "title": "first blog",
-      "description": "this is first blog"
+      "title": "Plan Your Travel",
+      "content": "Embarking on a journey requires thoughtful planning. Begin by selecting a destination that resonates with your interests and research its unique attractions. Set a budget to manage expenses effectively, including accommodation, transportation, and activities. Sketch out a flexible itinerary, allowing room for spontaneous adventures. Book flights and lodging early for cost savings. Pack essentials while considering the climate. Respect local customs by learning about the culture beforehand. Stay connected with communication tools. Embrace unforeseen opportunities and capture memories through photos. Remember, traveling isn't solely about the destination; it's about the experiences you collect along the way",
+      "imageUrl": "https://images.unsplash.com/photo-1504609773096-104ff2c73ba4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "id": 1
     },
     {
-      "title": "first blog",
-      "description": "this is first blog"
+      "title": "Cultivating the Habit of Reading: A Pathway to Enrichment",
+      "content": "In a world bustling with screens and instant gratification, the habit of reading stands as a timeless refuge, nurturing the mind and soul. Beyond mere words, reading unlocks portals to new worlds, perspectives, and ideas. The habit of reading isn't just a pastime; it's a journey that leads to personal growth and boundless enrichment.\n\nImmersing oneself in the realm of books is akin to embarking on a quest for knowledge. As you flip through pages, whether of fiction, non-fiction, or poetry, you embrace the experiences and wisdom of others. Reading empowers us to transcend our own lives, walking in the shoes of characters, philosophers, and visionaries, weaving empathy and understanding into the fabric of our being.",
+      "imageUrl": "https://images.unsplash.com/photo-1531988042231-d39a9cc12a9a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "id": 2
+    },
+    {
+      "title": "Embracing a Natural Lifestyle: A Path to Balance and Well-being",
+      "content": "In today's fast-paced world, where technology and convenience often take center stage, there is a growing yearning for simplicity, connection with nature, and a more mindful way of living. The concept of a natural lifestyle is gaining traction as people seek to align their daily choices with the rhythms of the natural world. This intentional shift towards a natural lifestyle encompasses everything from the food we consume to the products we use, ultimately aiming to harmonize our well-being with the environment.",
+      "imageUrl": "https://images.unsplash.com/photo-1585563003575-a00e42c64603?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=869&q=80",
+      "id": 3
+    },
+    {
+      "title": " The Art and Science of Brewing the Perfect Cup of Coffee",
+      "content": "Do you love the rich aroma of freshly brewed coffee in the morning? Coffee, in its various forms, has become an integral part of our daily lives, offering not just a caffeine boost, but a delightful experience that soothes the senses. Beyond being a simple beverage, coffee has a rich history, a variety of brewing methods, and a unique place in cultures around the world.",
+      "imageUrl": "https://plus.unsplash.com/premium_photo-1669374537810-f88d8ad82818?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "id": 5
     }
   ],
   "popular_blogs": [
     {
-      "title": "Current Weather",
-      "description": "lorem20 ",
-      "image": "dlkfkd",
-      "author_name": "dina",
+      "title": "Infaltion",
+      "description": "Inflation is an economic phenomenon characterized by the sustained increase in the general price levels of goods and services within an economy over a specific period of time. It represents a decrease in the purchasing power of money, as each unit of currency buys fewer goods and services due to the rising cost of living. Inflation can be caused by a variety of factors, including increased demand for goods and services, supply chain disruptions, rising production costs, changes in monetary policy, and fluctuations in currency exchange rates. ",
+      "image": "https://images.unsplash.com/photo-1532038890189-d258e6190177?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "author_name": "Ashma",
       "date": "06/24"
     },
     {
       "title": "Cats Adoption",
-      "description": "this is first blog",
-      "image": "dlkfkd",
-      "author_name": "dina",
-      "date": "06/24"
+      "description": "Cat adoption is a heartwarming and rewarding experience that involves providing a loving home to a feline companion in need. Cats make wonderful pets, offering companionship, entertainment, and a special bond that can greatly enrich our lives.When considering cat adoption, there are a few important factors to keep in mind. Firstly, adopting a cat means welcoming a new member into your family, so it's essential to choose a cat that aligns with your lifestyle and preferences. Cats come in various breeds, sizes, and personalities, each with their own unique characteristics.",
+      "image": "https://images.unsplash.com/photo-1513360371669-4adf3dd7dff8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "author_name": "Dina",
+      "date": "06/25"
     },
     {
-      "title": "Life as a frontend developer",
-      "description": "this is first blog",
-      "image": "dlkfkd",
+      "title": "Life as a Frontend Developer",
+      "description": "Life as a frontend developer is both dynamic and rewarding, filled with continuous learning, creative challenges, and the satisfaction of seeing your work come to life on the web. Frontend development focuses on crafting the visual and interactive aspects of websites and applications, making it a crucial role in the digital landscape. ",
+      "image": "https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
       "author_name": "dina",
       "date": "06/24"
     },
     {
       "title": "Adventerous Hiking",
-      "description": "this is first blog",
-      "image": "dlkfkd",
-      "author_name": "dina",
-      "date": "06/24"
+      "description": "Hiking, a timeless activity deeply rooted in humanity's connection with nature, offers an escape from the bustling urban life and an opportunity to reconnect with the great outdoors. It's a journey that takes you through a tapestry of landscapes, from rugged mountain trails to serene forests, and offers more than just physical exertion. Hiking is an experience that rejuvenates the mind, body, and soul, leaving lasting memories and a sense of accomplishment.",
+      "image": "https://images.unsplash.com/uploads/141148589884100082977/a816dbd7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "author_name": "Jane",
+      "date": "03/24"
     },
     {
       "title": "Facts about Nepal",
-      "description": "this is first blog",
-      "image": "dlkfkd",
-      "author_name": "dina",
-      "date": "06/24"
+      "description": "Nepal, a captivating nation nestled in the Himalayas, is renowned for its diverse landscapes, including the world's highest peak, Mount Everest. The birthplace of Buddha, Lumbini, holds spiritual significance, while the Kathmandu Valley's historic cities offer intricate temples and pagodas. With over 120 ethnic groups, Nepal's cultural diversity is awe-inspiring. The living goddess Kumari and UNESCO World Heritage Sites like Chitwan National Park further enrich its allure. Vibrant festivals like Dashain and Tihar showcase its colorful traditions. Trekkers and mountaineers flock to Nepal for adventures in Annapurna and Langtang regions.",
+      "image": "https://images.unsplash.com/photo-1611516491426-03025e6043c8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1033&q=80",
+      "author_name": "Ram",
+      "date": "02/20"
     },
     {
       "title": "Explore American culture",
-      "description": "this is first blog",
-      "image": "dlkfkd",
-      "author_name": "dina",
+      "description": "American culture is a dynamic and diverse amalgamation of traditions, values, and lifestyles that have evolved over centuries. With its roots stemming from Native American tribes and influenced by waves of immigrants, American culture is a tapestry of various ethnicities, languages, and customs. The concept of the American Dream embodies aspirations of success, freedom, and upward mobility.",
+      "image": "https://images.unsplash.com/photo-1530244534845-4a0c319f41e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "author_name": "Alex",
       "date": "06/24"
     }
   ]
