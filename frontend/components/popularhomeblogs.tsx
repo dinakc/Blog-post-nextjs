@@ -6,7 +6,7 @@ interface Iblogs {
   title: string;
   description: string;
   image: string;
-  author: string;
+  author_name: string;
   date: string;
 }
 function Popularhomeblogs() {
@@ -26,16 +26,31 @@ function Popularhomeblogs() {
 
   return (
     <div>
-      <h1 className="text-2xl text-center underline underline-offset-8">
-        Our Featured Blogs
-      </h1>
-      <div className="grid grid-cols-3 gap-4">
+      {/* <div className="grid grid-cols-3 gap-4">
         {blogData.map((blog, index) => (
           <div
             key={index}
             className="border-double border-2 bg-red-100 border-indigo-600 w-80 h-80">
             <h2>{blog.title}</h2> <p>{blog.description}</p> <p>{blog.author}</p>
             <p>{blog.date}</p>
+          </div>
+        ))}
+      </div> */}
+      <div className="mt-6 ml-2">
+        {blogData.map((blog, index) => (
+          <div className="flex mb-4" key={index}>
+            <div className="w-1/3">
+              <img src={blog.image} alt={blog.title} className="w-full" />
+            </div>
+            <div className="flex flex-col w-2/3 p-4">
+              <div className="flex items-center justify-between mb-2">
+                <h1 className="text-xl font-bold">{blog.title}</h1>
+              </div>
+              <p className="text-gray-700 mb-4 line-clamp-8">
+                {blog.description}
+              </p>
+              <div className="text-right text-gray-500">{blog.author_name}</div>
+            </div>
           </div>
         ))}
       </div>

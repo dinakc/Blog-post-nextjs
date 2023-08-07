@@ -54,45 +54,45 @@
   ],
   "popular_blogs": [
     {
-      "title": "Current Weather",
-      "description": "lorem20 ",
-      "image": "dlkfkd",
-      "author_name": "dina",
+      "title": "Infaltion",
+      "description": "Inflation is an economic phenomenon characterized by the sustained increase in the general price levels of goods and services within an economy over a specific period of time. It represents a decrease in the purchasing power of money, as each unit of currency buys fewer goods and services due to the rising cost of living. Inflation can be caused by a variety of factors, including increased demand for goods and services, supply chain disruptions, rising production costs, changes in monetary policy, and fluctuations in currency exchange rates. ",
+      "image": "https://images.unsplash.com/photo-1532038890189-d258e6190177?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "author_name": "Ashma",
       "date": "06/24"
     },
     {
       "title": "Cats Adoption",
-      "description": "this is first blog",
-      "image": "dlkfkd",
-      "author_name": "dina",
-      "date": "06/24"
+      "description": "Cat adoption is a heartwarming and rewarding experience that involves providing a loving home to a feline companion in need. Cats make wonderful pets, offering companionship, entertainment, and a special bond that can greatly enrich our lives.When considering cat adoption, there are a few important factors to keep in mind. Firstly, adopting a cat means welcoming a new member into your family, so it's essential to choose a cat that aligns with your lifestyle and preferences. Cats come in various breeds, sizes, and personalities, each with their own unique characteristics.",
+      "image": "https://images.unsplash.com/photo-1513360371669-4adf3dd7dff8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "author_name": "Dina",
+      "date": "06/25"
     },
     {
-      "title": "Life as a frontend developer",
-      "description": "this is first blog",
-      "image": "dlkfkd",
+      "title": "Life as a Frontend Developer",
+      "description": "Life as a frontend developer is both dynamic and rewarding, filled with continuous learning, creative challenges, and the satisfaction of seeing your work come to life on the web. Frontend development focuses on crafting the visual and interactive aspects of websites and applications, making it a crucial role in the digital landscape. ",
+      "image": "https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
       "author_name": "dina",
       "date": "06/24"
     },
     {
       "title": "Adventerous Hiking",
-      "description": "this is first blog",
-      "image": "dlkfkd",
-      "author_name": "dina",
-      "date": "06/24"
+      "description": "Hiking, a timeless activity deeply rooted in humanity's connection with nature, offers an escape from the bustling urban life and an opportunity to reconnect with the great outdoors. It's a journey that takes you through a tapestry of landscapes, from rugged mountain trails to serene forests, and offers more than just physical exertion. Hiking is an experience that rejuvenates the mind, body, and soul, leaving lasting memories and a sense of accomplishment.",
+      "image": "https://images.unsplash.com/uploads/141148589884100082977/a816dbd7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "author_name": "Jane",
+      "date": "03/24"
     },
     {
       "title": "Facts about Nepal",
-      "description": "this is first blog",
-      "image": "dlkfkd",
-      "author_name": "dina",
-      "date": "06/24"
+      "description": "Nepal, a captivating nation nestled in the Himalayas, is renowned for its diverse landscapes, including the world's highest peak, Mount Everest. The birthplace of Buddha, Lumbini, holds spiritual significance, while the Kathmandu Valley's historic cities offer intricate temples and pagodas. With over 120 ethnic groups, Nepal's cultural diversity is awe-inspiring. The living goddess Kumari and UNESCO World Heritage Sites like Chitwan National Park further enrich its allure. Vibrant festivals like Dashain and Tihar showcase its colorful traditions. Trekkers and mountaineers flock to Nepal for adventures in Annapurna and Langtang regions.",
+      "image": "https://images.unsplash.com/photo-1611516491426-03025e6043c8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1033&q=80",
+      "author_name": "Ram",
+      "date": "02/20"
     },
     {
       "title": "Explore American culture",
-      "description": "this is first blog",
-      "image": "dlkfkd",
-      "author_name": "dina",
+      "description": "American culture is a dynamic and diverse amalgamation of traditions, values, and lifestyles that have evolved over centuries. With its roots stemming from Native American tribes and influenced by waves of immigrants, American culture is a tapestry of various ethnicities, languages, and customs. The concept of the American Dream embodies aspirations of success, freedom, and upward mobility.",
+      "image": "https://images.unsplash.com/photo-1530244534845-4a0c319f41e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "author_name": "Alex",
       "date": "06/24"
     }
   ]

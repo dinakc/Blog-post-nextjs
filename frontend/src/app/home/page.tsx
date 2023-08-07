@@ -9,7 +9,7 @@ function Homeblogs() {
   }
   return (
     <>
-      <div className=" h-full bg-yellow-300 flex flex-col align-center justify-around p-5 h-96">
+      <div className=" bg-yellow-300 flex flex-col align-center justify-around p-5 h-96">
         <h1 className="text-7xl "> Happy Blogging</h1>
         <h3 className=" text-2xl">
           A safe create space for our beloved bloggers for creating unique blogs
@@ -24,6 +24,12 @@ function Homeblogs() {
           Create your own Blogs!
         </button>
       </div>
+      <div className="text-center">
+        <h1 className="text-2xl underline underline-offset-8 my-8 ">
+          Our Featured Blogs
+        </h1>
+      </div>
+
       <Popularhomeblogs />
     </>
   );
