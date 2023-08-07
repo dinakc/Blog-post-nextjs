@@ -27,14 +27,14 @@ function Popularhomeblogs() {
   return (
     <div>
       <h1 className="text-2xl text-center underline underline-offset-8">
-        Our Popular Blogs
+        Our Featured Blogs
       </h1>
       <div className="grid grid-cols-3 gap-4">
         {blogData.map((blog, index) => (
           <div
             key={index}
             className="border-double border-2 bg-red-100 border-indigo-600 w-80 h-80">
-            <h2>{blog.title}</h2> <p>{blog.description}</p> <p>{blog.author}</p>{" "}
+            <h2>{blog.title}</h2> <p>{blog.description}</p> <p>{blog.author}</p>
             <p>{blog.date}</p>
           </div>
         ))}

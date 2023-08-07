@@ -41,7 +41,7 @@ function Blogs() {
     <>
       <div className="mt-6 ml-2">
         {blogData.map((blog, index) => (
-          <div className="flex" key={index}>
+          <div className="flex mb-4" key={index}>
             <div className="w-1/3">
               <img src={blog.imageUrl} alt={blog.title} className="w-full" />
             </div>
@@ -116,7 +116,7 @@ function Blogs() {
                           const updatedBlogs = blogData.map((blog) =>
                             blog.id === currentBlog.id ? currentBlog : blog
                           );
-                          setBlogData(updatedBlogs);
+                          setBlogData(updatedBlogs); // This line should update the local state
                           setIsEditModalOpen(false);
                         })
                         .catch((error) => {
