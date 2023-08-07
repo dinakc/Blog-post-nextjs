@@ -22,7 +22,6 @@ export default function RootLayout({
       <body className={inter.className}>
         <Navbar />
         <BlogFormProvider>{children}</BlogFormProvider>
-
         <Footer />
       </body>
     </html>

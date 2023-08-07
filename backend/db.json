@@ -39,6 +39,11 @@
       "email": "ashma.udf@gmail.com",
       "password": "$2a$10$.8KJsSSnMQTcJBlgQ.ju2.iSgjf4NfeElmhqIshIugHONHyJA2Meq",
       "id": 8
+    },
+    {
+      "email": "ash@outlook.com",
+      "password": "$2a$10$4KnsUrGCKxURGL0qcDy2hOMuGNkrkvNlRDVK6L5Wry4J5GYnkbdMO",
+      "id": 9
     }
   ],
   "blogs": [
@@ -51,6 +56,28 @@
       "content": "sdf",
       "imageUrl": "https://dribbble.com/shots/19614098-Shopcart-E-Commerce-Product-Page",
       "id": 2
+    },
+    {
+      "author": "",
+      "title": "",
+      "content": "",
+      "imageUrl": "",
+      "date": "",
+      "id": 3
+    },
+    {
+      "author": "",
+      "title": "",
+      "content": "",
+      "imageUrl": "",
+      "date": "",
+      "id": 4
+    },
+    {
+      "title": "second blog",
+      "content": "this is second blog",
+      "imageUrl": "https://images.unsplash.com/photo-1504609773096-104ff2c73ba4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "id": 5
     }
   ],
   "popular_blogs": [

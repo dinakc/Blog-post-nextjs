@@ -17,8 +17,8 @@ function Navbar() {
     }
   }
   return (
-    <div className="relative">
-      <div className="flex flex-row justify-around items-center bg-slate-900 text-white h-16">
+    <div className="relative  ">
+      <div className="flex flex-row justify-around items-center bg-slate-900 py-2 text-white h-20">
         <Link href="/home">Home</Link>
         <Link href="/blogs">Blogs</Link>
         <Link href="/about">About Us</Link>
