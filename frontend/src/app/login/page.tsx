@@ -3,6 +3,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import toast from "react-hot-toast";
 import { useRouter } from "next/navigation";
+console.log(process.env.APP_URL);
 
 interface IUserData {
   email: string;
@@ -30,7 +31,7 @@ function Login() {
     }
 
     axios
-      .post("http://localhost:4000/login", { email, password })
+      .post("http://localhost:4000/users", { email, password })
       .then((response) => {
         // setBlogData(response.data);
         toast.success("Logged in successfully");

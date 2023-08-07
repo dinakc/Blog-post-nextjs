@@ -1,5 +1,5 @@
 import React from "react";
-import Popularhomeblogs from "../components/popularhomeblogs";
+import Popularhomeblogs from "../../../components/popularhomeblogs";
 
 function Homeblogs() {
   return (

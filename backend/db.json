@@ -43,12 +43,14 @@
   ],
   "blogs": [
     {
-      "title": "first blog",
-      "description": "this is first blog"
+      "name": "ashma",
+      "id": 1
     },
     {
-      "title": "first blog",
-      "description": "this is first blog"
+      "title": "dfsdf",
+      "content": "sdf",
+      "imageUrl": "https://dribbble.com/shots/19614098-Shopcart-E-Commerce-Product-Page",
+      "id": 2
     }
   ],
   "popular_blogs": [
