@@ -4,11 +4,24 @@ import { BlogPost } from "../../../components/blogtypes";
 import axios from "axios";
 import { FaEdit } from "react-icons/fa";
 import { FaTrash } from "react-icons/fa";
+import SearchBar from "../../../components/searchbar";
 
 function Blogs() {
   const [blogData, setBlogData] = useState<BlogPost[]>([]);
   const [isEditModalOpen, setIsEditModalOpen] = useState(false);
   const [currentBlog, setCurrentBlog] = useState(null);
+  const [filteredBlogs, setFilteredBlogs] = useState([]);
+
+  const searchBlogs = async (query) => {
+    try {
+      const response = await axios.get(
+        `http://localhost:4000/blogs?q=${query}`
+      );
+      setFilteredBlogs(response.data);
+    } catch (error) {
+      console.error("Error fetching data:", error);
+    }
+  };
   const editBlog = (blog) => {
     setCurrentBlog(blog);
     setIsEditModalOpen(true);
@@ -39,6 +52,23 @@ function Blogs() {
   }, []);
   return (
     <>
+      <SearchBar onSearch={searchBlogs} />
+      <div className="mt-6 ml-2">
+        {filteredBlogs.map((blog, index) => (
+          <div className="flex mb-4" key={index}>
+            <div className="w-1/3">
+              <img src={blog.imageUrl} alt={blog.title} className="w-full" />
+            </div>
+            <div className="flex flex-col w-2/3 p-4">
+              <div className="flex items-center justify-between mb-2">
+                <h1 className="text-xl font-bold">{blog.title}</h1>
+              </div>
+              <p className="text-gray-700 mb-4 line-clamp-8">{blog.content}</p>
+              <div className="text-right text-gray-500">{blog.author}</div>
+            </div>
+          </div>
+        ))}
+      </div>
       <div className="mt-6 ml-2">
         {blogData.map((blog, index) => (
           <div className="flex mb-4" key={index}>

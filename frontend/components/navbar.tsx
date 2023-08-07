@@ -2,7 +2,6 @@
 import { Elsie } from "next/font/google";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useState } from "react";
 import { BsPerson } from "react-icons/bs";
 // import DropMenu from "./drop-catgory";
 
@@ -30,7 +29,6 @@ function Navbar() {
         <Link href="/home">Home</Link>
         <div onClick={checkBlog}>Blogs</div>
         {/* <Link href="/blogs">Blogs</Link> */}
-        <Link href="/about">About Us</Link>
 
         <BsPerson onClick={checkLogin} />
       </div>
