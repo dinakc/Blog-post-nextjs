@@ -18,18 +18,23 @@ const BlogForm: React.FC = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setBlogPost({ title, content, imageUrl });
+    // setBlogPost(blogPost);
 
     axios
-      .post("http://localhost:4000/blogs", blogPost)
+      .post("http://localhost:4000/blogs", { title, content, imageUrl })
       .then((response) => {
         // setBlogData(response.data);
-        toast.success("Logged in successfully");
+
+        toast.success("BlogPOsted Successfully");
         console.log(response.data);
+        setTitle("");
+        setContent("");
+        setImageUrl("");
 
         // router.push("/postpage");
       })
       .catch((error) => {
-        // Display an error toast if the login attempt fails
+        // Display an error toast if the post attempt fails
         toast.error(error.response.data.message);
       })
       .finally(() => {
@@ -52,21 +57,31 @@ const BlogForm: React.FC = () => {
       <div className="flex justify-center items-center h-screen bg-gray-100">
         <div className="w-full max-w-md bg-white p-8 rounded-lg shadow-md">
           <h1 className="text-2xl font-semibold mb-4">Write Your Blog</h1>
-          <form>
+          <form onSubmit={handleSubmit}>
             <label className="block mb-2 font-medium">Title</label>
             <input
               type="text"
+              id="title"
+              value={title}
+              onChange={(e) => setTitle(e.target.value)}
+              required
               className="w-full p-2 mb-4 border border-gray-300 rounded-md focus:outline-none focus:border-yellow-500"
               placeholder="Enter blog title"
             />
 
             <label className="block mb-2 font-medium">Content</label>
             <textarea
+              id="content"
+              value={content}
+              onChange={(e) => setContent(e.target.value)}
               className="w-full p-2 mb-4 border border-gray-300 rounded-md h-40 resize-none focus:outline-none focus:border-yellow-500"
               placeholder="Write your blog content here"></textarea>
-            <label className="block mb-2 font-medium">Title</label>
+            <label className="block mb-2 font-medium">Image</label>
             <input
-              type="text"
+              type="url"
+              id="imageUrl"
+              value={imageUrl}
+              onChange={(e) => setImageUrl(e.target.value)}
               className="w-full p-2 mb-4 border border-gray-300 rounded-md focus:outline-none focus:border-yellow-500"
               placeholder="Enter image Url"
             />

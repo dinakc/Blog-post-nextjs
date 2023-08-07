@@ -48,36 +48,10 @@
   ],
   "blogs": [
     {
-      "name": "ashma",
-      "id": 1
-    },
-    {
-      "title": "dfsdf",
-      "content": "sdf",
-      "imageUrl": "https://dribbble.com/shots/19614098-Shopcart-E-Commerce-Product-Page",
-      "id": 2
-    },
-    {
-      "author": "",
-      "title": "",
-      "content": "",
-      "imageUrl": "",
-      "date": "",
-      "id": 3
-    },
-    {
-      "author": "",
-      "title": "",
-      "content": "",
-      "imageUrl": "",
-      "date": "",
-      "id": 4
-    },
-    {
-      "title": "second blog",
-      "content": "this is second blog",
+      "title": "Plan Your Travel",
+      "content": "Embarking on a journey requires thoughtful planning. Begin by selecting a destination that resonates with your interests and research its unique attractions. Set a budget to manage expenses effectively, including accommodation, transportation, and activities. Sketch out a flexible itinerary, allowing room for spontaneous adventures. Book flights and lodging early for cost savings. Pack essentials while considering the climate. Respect local customs by learning about the culture beforehand. Stay connected with communication tools. Embrace unforeseen opportunities and capture memories through photos. Remember, traveling isn't solely about the destination; it's about the experiences you collect along the way",
       "imageUrl": "https://images.unsplash.com/photo-1504609773096-104ff2c73ba4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
-      "id": 5
+      "id": 1
     }
   ],
   "popular_blogs": [

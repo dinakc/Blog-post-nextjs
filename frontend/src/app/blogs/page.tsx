@@ -19,7 +19,7 @@ function Blogs() {
   }, []);
   return (
     <>
-      <div>
+      <div className="mt-6">
         {blogData.map((blog, index) => (
           <div className="flex" key={index}>
             <div className="w-1/3">
