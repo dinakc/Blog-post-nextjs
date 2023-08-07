@@ -31,19 +31,20 @@ function Login() {
     }
 
     axios
-      .post("http://localhost:4000/users", { email, password })
+      .post("http://localhost:4000/login", { email, password })
       .then((response) => {
         // setBlogData(response.data);
         toast.success("Logged in successfully");
-        setEmail("");
-        setPassword("");
+        // setEmail("");
+        // setPassword("");
         console.log(response.data);
 
         // Saving the token in localstorage
         localStorage.setItem("session-token", response.data.accessToken);
+        console.log(response.data.accessToken);
 
         // Redirect to addblog after successful login
-        router.push("/postpage");
+        router.push("/blog-form");
       })
       .catch((error) => {
         // Display an error toast if the login attempt fails

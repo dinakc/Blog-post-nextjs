@@ -9,6 +9,13 @@ import { BsPerson } from "react-icons/bs";
 function Navbar() {
   const router = useRouter();
   const token = localStorage.getItem("session-token");
+  function checkBlog() {
+    if (!token) {
+      router.push("/register");
+    } else {
+      router.push("/blogs");
+    }
+  }
   function checkLogin() {
     if (!token) {
       router.push("/register");
@@ -16,11 +23,13 @@ function Navbar() {
       router.push("/blog-form");
     }
   }
+
   return (
     <div className="relative  ">
       <div className="flex flex-row justify-around items-center bg-slate-900 py-2 text-white h-20">
         <Link href="/home">Home</Link>
-        <Link href="/blogs">Blogs</Link>
+        <div onClick={checkBlog}>Blogs</div>
+        {/* <Link href="/blogs">Blogs</Link> */}
         <Link href="/about">About Us</Link>
 
         <BsPerson onClick={checkLogin} />

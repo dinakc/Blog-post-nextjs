@@ -11,39 +11,19 @@
       "id": 2
     },
     {
-      "email": "dina@gmail.com",
-      "password": "$2a$10$UjklE9/PfGQjfECJ9CMZl.YlZwa7RRRgdxVveJ23mFAnDhRcoiUdW",
+      "email": "sos@gmail.com",
+      "password": "$2a$10$KQRu/UjSl11OhZLhq5ptNea2GWd2u3dC2R.iGMbtI24QKRn7F.Lmm",
       "id": 3
     },
     {
-      "email": "ashma@yahoo.com",
-      "password": "$2a$10$kPQiw5gDFTY8NQp2erkTbeh9qvoIlUmHu0ZS1NbHCZ6iOu7G2mij6",
+      "email": "anu@gmail.com",
+      "password": "$2a$10$egTbYOUheNi8JRPM7nrqh.l7cj.djXV5BwZccNLmjF5CNmwjyZ3l2",
       "id": 4
     },
     {
-      "email": "ash@gmail.com",
-      "password": "$2a$10$QIXnfrjSAwpOvyvMMPzQguo0v8537/js4XClaUNLbAR/NSWHwWABe",
+      "email": "jane@gmail.com",
+      "password": "$2a$10$u53Sh6UXoFrmFuStePTbquizhV/udWAF9dwVITy39oLPej6xlQfWG",
       "id": 5
-    },
-    {
-      "email": "archu@gmail.com",
-      "password": "$2a$10$ai7XAdQ7ot12Z.dWKZ8e9OaMlvjjpTE3lYrTS1UF1D9t66iV2LMiW",
-      "id": 6
-    },
-    {
-      "email": "ashma.u@gmail.com",
-      "password": "$2a$10$P7CDjGcPnuF8cQ5fYSs1D./gwRvEfYdeQ9qgL3GDOgCWddcSV0fxO",
-      "id": 7
-    },
-    {
-      "email": "ashma.udf@gmail.com",
-      "password": "$2a$10$.8KJsSSnMQTcJBlgQ.ju2.iSgjf4NfeElmhqIshIugHONHyJA2Meq",
-      "id": 8
-    },
-    {
-      "email": "ash@outlook.com",
-      "password": "$2a$10$4KnsUrGCKxURGL0qcDy2hOMuGNkrkvNlRDVK6L5Wry4J5GYnkbdMO",
-      "id": 9
     }
   ],
   "blogs": [
@@ -52,6 +32,18 @@
       "content": "Embarking on a journey requires thoughtful planning. Begin by selecting a destination that resonates with your interests and research its unique attractions. Set a budget to manage expenses effectively, including accommodation, transportation, and activities. Sketch out a flexible itinerary, allowing room for spontaneous adventures. Book flights and lodging early for cost savings. Pack essentials while considering the climate. Respect local customs by learning about the culture beforehand. Stay connected with communication tools. Embrace unforeseen opportunities and capture memories through photos. Remember, traveling isn't solely about the destination; it's about the experiences you collect along the way",
       "imageUrl": "https://images.unsplash.com/photo-1504609773096-104ff2c73ba4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
       "id": 1
+    },
+    {
+      "title": "Cultivating the Habit of Reading: A Pathway to Enrichment",
+      "content": "In a world bustling with screens and instant gratification, the habit of reading stands as a timeless refuge, nurturing the mind and soul. Beyond mere words, reading unlocks portals to new worlds, perspectives, and ideas. The habit of reading isn't just a pastime; it's a journey that leads to personal growth and boundless enrichment.\n\nImmersing oneself in the realm of books is akin to embarking on a quest for knowledge. As you flip through pages, whether of fiction, non-fiction, or poetry, you embrace the experiences and wisdom of others. Reading empowers us to transcend our own lives, walking in the shoes of characters, philosophers, and visionaries, weaving empathy and understanding into the fabric of our being.",
+      "imageUrl": "https://images.unsplash.com/photo-1531988042231-d39a9cc12a9a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "id": 2
+    },
+    {
+      "title": "Embracing a Natural Lifestyle: A Path to Balance and Well-being",
+      "content": "In today's fast-paced world, where technology and convenience often take center stage, there is a growing yearning for simplicity, connection with nature, and a more mindful way of living. The concept of a natural lifestyle is gaining traction as people seek to align their daily choices with the rhythms of the natural world. This intentional shift towards a natural lifestyle encompasses everything from the food we consume to the products we use, ultimately aiming to harmonize our well-being with the environment.",
+      "imageUrl": "https://images.unsplash.com/photo-1585563003575-a00e42c64603?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=869&q=80",
+      "id": 3
     }
   ],
   "popular_blogs": [
