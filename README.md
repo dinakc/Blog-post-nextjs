@@ -1,5 +1,5 @@
 # Blog-post-nextjs
-# E-Commerce Website Project
+
 
 Welcome to my E-Commerce website project! This project showcases a dynamic web application created using React, Redux, and other technologies. The website provides users with the ability to explore, add, delete, and edit blog posts. Please note that user authentication is required before creating a post. Additionally, you can find featured blogs from other users on the homepage.
 
